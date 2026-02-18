@@ -6,28 +6,24 @@ import {
   Linkedin,
   Twitter,
   Download,
+  Instagram,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "Next.js",
   "TypeScript",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
   "Figma",
-  "Git",
-  "GitHub Actions",
+  "GitHub",
+  "Bootstrap",
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "Wordpress",
 ];
 
 export const Hero = () => {
@@ -68,8 +64,8 @@ export const Hero = () => {
           <div className="space-y-8">
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse " />
+                Frontend Developer • React & WordPress Specialist
               </span>
             </div>
 
@@ -85,30 +81,28 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I’m Sanjay Prakash, a results-driven Frontend Developer specializing in React and modern UI development. With strong experience in WordPress customization, responsive design, and performance optimization, I build fast, scalable, and visually engaging web applications that deliver real business impact.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              
+               <a href="Sanjay prakash.pdf" download>
+    <AnimatedBorderButton>
+      <Download className="w-5 h-5" />
+      Download CV
+    </AnimatedBorderButton>
+  </a>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "https://github.com/" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/MSanjayprakash" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/sanjay-prakash27/" },
+                { icon: Instagram, href: "https://www.instagram.com/" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -132,8 +126,8 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
-                  alt="Pedro Machado"
+                  src="sanjay.png"
+                  alt="sanjay prakash"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
@@ -148,7 +142,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">2+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>

@@ -1,41 +1,24 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "Jul 2024 — Present",
+    role: "Junior Web Developer",
+    company: "Medzlegal, Chennai",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Built and maintained multiple client websites including Ethiqx, Laya Initiatives, and Medzlegal using WordPress, HTML, CSS, and JavaScript. Improved website performance through caching and code optimization, enhanced mobile usability, and collaborated with design and marketing teams to deliver feature updates on schedule.",
+    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Figma"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "Oct 2023 — Nov 2023",
+    role: "Web Development Intern",
+    company: "Website Makers, Chennai",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
-    current: false,
-  },
-  {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Developed multiple responsive web pages using HTML, CSS, and JavaScript, while gaining exposure to PHP and Python integrations. Improved UI interactivity for live projects and contributed to increased user engagement through interface enhancements.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "Python"],
     current: false,
   },
 ];
+
 
 export const Experience = () => {
   return (
@@ -70,8 +53,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A timeline of my professional growth, showcasing hands-on experience in building responsive websites, optimizing performance, and continuously expanding into modern frontend technologies.
           </p>
         </div>
 
