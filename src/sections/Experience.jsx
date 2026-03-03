@@ -4,8 +4,8 @@ const experiences = [
     role: "Junior Web Developer",
     company: "Medzlegal, Chennai",
     description:
-      "Built and maintained multiple client websites including Ethiqx, Laya Initiatives, and Medzlegal using WordPress, HTML, CSS, and JavaScript. Improved website performance through caching and code optimization, enhanced mobile usability, and collaborated with design and marketing teams to deliver feature updates on schedule.",
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Figma"],
+      "Built and maintained multiple client websites including Ethiqx, Laya Initiatives, and MedzLegal using WordPress, HTML, CSS, and JavaScript. Along with development, performed functional validation, cross-browser testing, and regression checks before deployment to ensure application stability. Improved website performance through caching and code optimization, enhanced mobile usability, and collaborated with design and marketing teams to deliver reliable feature updates on schedule.",
+    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Figma", "Manual Testing"],
     current: true,
   },
   {
@@ -13,8 +13,8 @@ const experiences = [
     role: "Web Development Intern",
     company: "Website Makers, Chennai",
     description:
-      "Developed multiple responsive web pages using HTML, CSS, and JavaScript, while gaining exposure to PHP and Python integrations. Improved UI interactivity for live projects and contributed to increased user engagement through interface enhancements.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "Python"],
+      "Developed responsive web pages using HTML, CSS, and JavaScript while gaining exposure to PHP and Python integrations. Assisted in UI validation, performed usability testing, and supported debugging activities to improve overall user experience and application reliability.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "Python", "UI Testing"],
     current: false,
   },
 ];
@@ -53,7 +53,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, showcasing hands-on experience in building responsive websites, optimizing performance, and continuously expanding into modern frontend technologies.
+            A timeline of my professional growth, highlighting hands-on experience in WordPress development, web application architecture, performance optimization, and my transition into QA automation and software testing practices.
           </p>
         </div>
 

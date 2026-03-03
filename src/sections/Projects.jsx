@@ -4,36 +4,36 @@ const projects = [
   {
     title: "Corporate Healthcare-Legal Website",
     description:
-      "A professional corporate website developed for Medzlegal, focusing on responsive UI design, optimized performance, and structured service presentation to improve client engagement and accessibility.",
+      "Developed a professional corporate website for MedzLegal using WordPress, focusing on responsive UI design, structured service presentation, and performance optimization. Along with development, I performed functional testing, cross-browser validation, and pre-deployment quality checks to ensure stability and reliability.",
     image: "/projects/project-1.png",
-    tags: ["Html", "Css", "Javascript", "WordPress", "Performance Optimization"],
+    tags: ["Html", "Css", "Javascript", "WordPress", "Performance Testing"],
     link: "#",
     github: "#",
   },
   {
     title: "Environmental Volunteer Platform",
     description:
-      "A responsive organizational website designed to promote environmental initiatives, volunteer programs, and awareness campaigns with improved loading speed and user-friendly layout.",
+      "Built a responsive organizational website to promote environmental initiatives and volunteer programs. Contributed to WordPress implementation, UI validation, mobile responsiveness testing, and regression checks during updates to maintain consistent performance and usability.",
     image: "/projects/project-2.png",
-    tags: ["Html", "Css", "Javascript", "WordPress", "Responsive Design"],
+    tags: ["Html", "Css", "Javascript", "WordPress", "Responsive Testing"],
     link: "#",
     github: "#",
   },
   {
     title: "Modern Developer Portfolio Website",
     description:
-      "A personal portfolio website built using React and Tailwind CSS to showcase projects, skills, and experience with modern UI animations and responsive layouts.",
+      "Designed and developed a modern portfolio website using React and Tailwind CSS with responsive layouts and smooth UI animations. Conducted component-level testing, manual functional validation, and performance monitoring to ensure optimal user experience.",
     image: "/projects/project-3.png",
-    tags: ["React", "JavaScript", "Tailwind Css", "Responsive UI"],
+    tags: ["React", "JavaScript", "Tailwind Css", "UI Testing"],
     link: "#",
     github: "#",
   },
   {
     title: "Project Management Tool",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "Contributed to a collaborative project management tool featuring real-time updates and task tracking. Worked on frontend modules, prepared test cases, performed API validation using Postman, and conducted functional and regression testing to maintain application quality.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "MongoDB", "Redis"],
+    tags: ["Next.js", "MongoDB", "Functional Testing", "API Testing"],
     link: "#",
     github: "#",
   },
@@ -59,8 +59,7 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
+            A selection of projects where I contributed to both web development and quality validation, ensuring performance, usability, and stability.
           </p>
         </div>
 

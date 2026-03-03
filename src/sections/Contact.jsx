@@ -106,8 +106,7 @@ export const Contact = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Have a project or opportunity in mind? I’d be happy to connect and discuss how I can contribute through quality-driven development and automation testing.
           </p>
         </div>
 
@@ -242,7 +241,7 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I am currently open to Frontend Developer opportunities where I can contribute to building modern, responsive, and high-performance web applications using React, WordPress, and modern UI technologies. Let’s connect and build something impactful.
+                I am currently open to QA Automation and Web Application Testing opportunities where I can contribute to ensuring software quality, automation framework development, and delivering reliable, high-performance web applications. Let’s connect and build impactful, stable products.
               </p>
             </div>
           </div>

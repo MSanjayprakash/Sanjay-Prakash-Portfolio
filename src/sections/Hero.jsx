@@ -12,8 +12,9 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "TypeScript",
-  "Node.js",
+  "TestNG",
+  "Selenium",
+  "Java",
   "MongoDB",
   "Vercel",
   "Tailwind CSS",
@@ -65,23 +66,24 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse " />
-                Frontend Developer • React & WordPress Specialist
+                QA Automation Engineer | WordPress Development Experience
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+                <span className="text-primary glow-text">Developing</span>{" "}
+                and
                 <br />
-                experiences with
+                testing with
                 <br />
                 <span className="font-serif italic font-normal text-white">
                   precision.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Sanjay Prakash, a results-driven Frontend Developer specializing in React and modern UI development. With strong experience in WordPress customization, responsive design, and performance optimization, I build fast, scalable, and visually engaging web applications that deliver real business impact.
+                Hi, I’m Sanjay Prakash, a QA Automation Engineer with a strong background in WordPress development and web application architecture. With 2+ years of experience building and optimizing websites, I focus on ensuring software quality through functional testing, automation, and performance validation to deliver reliable and scalable web applications.
               </p>
             </div>
 
@@ -102,7 +104,7 @@ export const Hero = () => {
               {[
                 { icon: Github, href: "https://github.com/MSanjayprakash" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/sanjay-prakash27/" },
-                { icon: Instagram, href: "https://www.instagram.com/" },
+                { icon: Instagram, href: "https://www.instagram.com/sanjay_prakash_27" },
               ].map((social, idx) => (
                 <a
                   key={idx}

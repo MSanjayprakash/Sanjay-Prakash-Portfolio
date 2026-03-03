@@ -5,24 +5,24 @@ const highlights = [
     icon: Code2,
     title: "Clean Code",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Writing structured automation scripts and maintainable test frameworks.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Quality & Reliability",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Ensuring bug-free, stable software through effective testing practices.",
   },
   {
     icon: Users,
     title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    description: "Working closely with developers and stakeholders to improve product quality.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Continuous Improvement",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Learning modern automation tools and best testing practices to stay ahead.",
   },
 ];
 
@@ -40,26 +40,29 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building scalable web experiences with
+              Building reliable web applications through
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                modern frontend technologies.
+                development and automation.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I am a Frontend Developer with 2+ years of experience building responsive and high-performance web applications using HTML, CSS, JavaScript, React, and WordPress. I specialize in creating clean UI interfaces, optimizing performance, and developing scalable frontend solutions that enhance user experience.
+                I am a QA Automation Engineer with 2+ years of experience in WordPress-based web development and web application architecture. My background in building responsive and performance-driven websites gives me a strong understanding of application behavior, UI workflows, and system reliability.
               </p>
               <p>
-                I continuously expand my expertise by working with modern technologies such as TypeScript, Node.js, and MongoDB, aiming to build fast, reliable, and production-ready web applications.
+                I specialize in functional testing, automation testing using Java & Selenium, and ensuring software quality through structured validation and regression practices.
+              </p>
+              <p>
+                I continuously expand my expertise in test automation frameworks, API testing, and modern development environments to deliver stable, scalable, and production-ready applications.
               </p>
               
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                “My mission is to build modern, user-friendly web experiences that combine performance, clean design, and scalable development practices — creating products that users enjoy and teams can easily maintain.”
+                “My mission is to ensure software quality by combining development knowledge with automation expertise — delivering reliable, high-performance applications that users trust.”
               </p>
             </div>
           </div>
