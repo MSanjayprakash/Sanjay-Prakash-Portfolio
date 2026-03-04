@@ -83,7 +83,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Sanjay Prakash, a QA Automation Engineer with a strong background in WordPress development and web application architecture. With 2+ years of experience building and optimizing websites, I focus on ensuring software quality through functional testing, automation, and performance validation to deliver reliable and scalable web applications.
+                Hi, I’m Sanjay Prakash, a Web Developer with 2+ years of experience building and optimizing WordPress-based websites and web applications. Through my development work, I have gained hands-on exposure to functional testing, bug identification, and basic automation concepts. I am now expanding my expertise into QA and automation testing to focus on improving software quality, reliability, and performance in modern web applications.
               </p>
             </div>
 

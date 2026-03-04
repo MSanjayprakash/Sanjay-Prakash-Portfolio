@@ -49,15 +49,17 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I am a QA Automation Engineer with 2+ years of experience in WordPress-based web development and web application architecture. My background in building responsive and performance-driven websites gives me a strong understanding of application behavior, UI workflows, and system reliability.
+                Web Developer with over 2 years of experience in WordPress-based web development and web application architecture. Extensive experience in building responsive and performance-optimized websites has provided a strong understanding of application behavior, user interface workflows, and overall system reliability.
               </p>
               <p>
-                I specialize in functional testing, automation testing using Java & Selenium, and ensuring software quality through structured validation and regression practices.
+                Alongside development responsibilities, actively performed functional testing, defect identification, and feature validation to ensure smooth user experiences and stable application performance across releases.
               </p>
               <p>
-                I continuously expand my expertise in test automation frameworks, API testing, and modern development environments to deliver stable, scalable, and production-ready applications.
+                Currently advancing expertise in QA and automation testing, with hands-on learning in Java and Selenium, and strengthening knowledge in regression testing, automation frameworks, and API testing practices.
               </p>
-              
+              <p>
+                Committed to combining development expertise with structured testing methodologies to contribute to the delivery of reliable, scalable, and high-quality web applications.
+              </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
