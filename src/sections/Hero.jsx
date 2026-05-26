@@ -145,9 +145,9 @@ Currently, I am expanding my expertise in Node.js, Express.js, and MongoDB while
                   </div>
                 </div>
                 {/* Stats Badge */}
-                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                <div className="absolute -top-0 -left-16 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">2+</div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-xs text-primary">
                     Years Exp.
                   </div>
                 </div>
