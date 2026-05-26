@@ -11,12 +11,11 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "React",
-  "TestNG",
-  "Selenium",
-  "Java",
+  "React js",
   "MongoDB",
   "Vercel",
+  "Node.js",
+  "Express.js",
   "Tailwind CSS",
   "Figma",
   "GitHub",
@@ -66,31 +65,34 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse " />
-                QA Automation Engineer | WordPress Development Experience
+                Frontend Developer | WordPress Developer
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                <span className="text-primary glow-text">Developing</span>{" "}
-                and
+                <span className="text-primary glow-text">Building</span>{" "}
+                modern and responsive
                 <br />
-                testing with
-                <br />
+                
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  web experiences.
                 </span>
               </h1>
-              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Sanjay Prakash, a Web Developer with 2+ years of experience building and optimizing WordPress-based websites and web applications. Through my development work, I have gained hands-on exposure to functional testing, bug identification, and basic automation concepts. I am now expanding my expertise into QA and automation testing to focus on improving software quality, reliability, and performance in modern web applications.
+              <p className="text-lg text-muted-foreground text-justify max-w-lg animate-fade-in animation-delay-200">
+                Hi, I’m Sanjay Prakash, a Frontend Developer with 2+ years of experience building responsive, performance-optimized, and business-focused websites using WordPress, React.js, JavaScript, HTML, CSS, and Bootstrap.
+
+I specialize in developing modern UI components, responsive layouts, interactive frontend experiences, and optimized web interfaces that improve usability and performance across devices and browsers.
+
+Currently, I am expanding my expertise in Node.js, Express.js, and MongoDB while continuing to build scalable and user-friendly web applications.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               
-               <a href="Sanjay prakash.pdf" download>
+               <a href="Sanjay Prakash.pdf" download>
     <AnimatedBorderButton>
       <Download className="w-5 h-5" />
       Download CV

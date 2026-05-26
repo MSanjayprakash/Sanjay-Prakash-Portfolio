@@ -4,8 +4,8 @@ const experiences = [
     role: "Junior Web Developer",
     company: "Medzlegal, Chennai",
     description:
-      "Built and maintained multiple client websites including Ethiqx, Laya Initiatives, and MedzLegal using WordPress, HTML, CSS, and JavaScript. Along with development, performed functional validation, cross-browser testing, and regression checks before deployment to ensure application stability. Improved website performance through caching and code optimization, enhanced mobile usability, and collaborated with design and marketing teams to deliver reliable feature updates on schedule.",
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Figma", "Manual Testing"],
+      "Developed and maintained responsive business websites for clients including MedzLegal, Ethiqx, and Laya Initiatives using WordPress, HTML, CSS, JavaScript, and Bootstrap. Worked on frontend UI development, responsive layouts, interactive sections, website customization, and performance optimization to deliver seamless user experiences across desktop and mobile devices. Collaborated with design and marketing teams to improve usability, responsiveness, and overall frontend quality while supporting testing, debugging, and deployment activities.",
+    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Figma", "Bootstrap", "React.js"],
     current: true,
   },
   {
@@ -13,8 +13,8 @@ const experiences = [
     role: "Web Development Intern",
     company: "Website Makers, Chennai",
     description:
-      "Developed responsive web pages using HTML, CSS, and JavaScript while gaining exposure to PHP and Python integrations. Assisted in UI validation, performed usability testing, and supported debugging activities to improve overall user experience and application reliability.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "Python", "UI Testing"],
+      "Built responsive web pages and frontend UI sections using HTML, CSS, JavaScript, and Bootstrap while gaining hands-on experience in responsive development workflows and website structure implementation. Assisted in frontend customization, debugging, usability improvements, and responsive testing to enhance website functionality and improve user experience across different devices and browsers.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "Python", "Bootstrap"],
     current: false,
   },
 ];
@@ -45,7 +45,7 @@ export const Experience = () => {
             Experience that{" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-              speaks volumes.
+              shaped my frontend development skills.
             </span>
           </h2>
 
@@ -53,7 +53,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, highlighting hands-on experience in WordPress development, web application architecture, performance optimization, and my transition into QA automation and software testing practices.
+            A journey of building responsive websites, modern UI interfaces, and user-focused digital experiences through real-world frontend development projects.
           </p>
         </div>
 

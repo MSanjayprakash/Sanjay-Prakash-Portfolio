@@ -40,31 +40,31 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building reliable web applications through
+              Building modern, responsive, and reliable
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                development and automation.
+                 web experiences.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Web Developer with over 2 years of experience in WordPress-based web development and web application architecture. Extensive experience in building responsive and performance-optimized websites has provided a strong understanding of application behavior, user interface workflows, and overall system reliability.
+                I’m passionate about creating modern and user-focused web experiences that combine responsive design, clean frontend architecture, and performance-driven development. With hands-on experience in business and corporate website development, I focus on building interfaces that are visually engaging, scalable, and optimized for seamless usability across all devices and browsers.
               </p>
               <p>
-                Alongside development responsibilities, actively performed functional testing, defect identification, and feature validation to ensure smooth user experiences and stable application performance across releases.
+                My experience includes working on responsive UI implementation, frontend customization, interactive web sections, animations, landing pages, and website optimization for projects across different industries. I enjoy transforming ideas into functional and intuitive digital experiences while maintaining clean code structure, responsiveness, and consistent user interaction.
               </p>
               <p>
-                Currently advancing expertise in QA and automation testing, with hands-on learning in Java and Selenium, and strengthening knowledge in regression testing, automation frameworks, and API testing practices.
+                I have worked on projects such as MedzLegal, Ethiqx, and Laya Initiatives, contributing to frontend development, UI enhancement, responsive layouts, website performance improvement, and interactive feature implementation using modern web technologies and WordPress-based development workflows.
               </p>
               <p>
-                Committed to combining development expertise with structured testing methodologies to contribute to the delivery of reliable, scalable, and high-quality web applications.
+                Alongside frontend development, I continuously explore modern tools and technologies to strengthen my overall development expertise. I am currently expanding my knowledge in backend development concepts, scalable application workflows, and modern development practices to build more efficient and reliable web applications.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                “My mission is to ensure software quality by combining development knowledge with automation expertise — delivering reliable, high-performance applications that users trust.”
+                “My goal is to develop digital experiences that not only look modern and professional but also deliver smooth performance, accessibility, usability, and long-term scalability for users and businesses.”
               </p>
             </div>
           </div>
