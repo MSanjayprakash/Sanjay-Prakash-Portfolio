@@ -92,7 +92,7 @@ Currently, I am expanding my expertise in Node.js, Express.js, and MongoDB while
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               
-               <a href="Sanjay Prakash.pdf" download>
+               <a href="/Sanjay-Prakash.pdf" download>
     <AnimatedBorderButton>
       <Download className="w-5 h-5" />
       Download CV
